@@ -3,7 +3,8 @@ const path = require("path");
 
 const DEFAULT_CONF = {
     port: 8080,
-    protected_dir: path.join(__dirname, "./protected")
+    protected_dir: path.join(__dirname, "./protected"),
+    cartel_dir: path.join(__dirname, "./Cartel")
 }
 
 let final = DEFAULT_CONF;
