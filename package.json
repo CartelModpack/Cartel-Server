@@ -7,7 +7,7 @@
     "start": "node .",
     "init": "git clone https://github.com/CartelModpack/Cartel.git",
     "update:self": "git pull",
-    "update:cartel": "git pull https://github.com/CartelModpack/Cartel.git",
+    "update:cartel": "cd ./Cartel/ && git pull https://github.com/CartelModpack/Cartel.git && cd ..",
     "update": "npm run update:cartel && npm run update:self"
   },
   "keywords": [],
