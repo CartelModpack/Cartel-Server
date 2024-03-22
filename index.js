@@ -10,7 +10,7 @@ const app = express();
 const server = http.createServer(app);
 
 // Express Routes
-app.use("protected", express.static(conf.private_dir));
+app.use("/protected", express.static(conf.private_dir));
 
 // Launch
 server.listen(conf.port, _ => {
