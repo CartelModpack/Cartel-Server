@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
+    "init": "git clone https://github.com/CartelModpack/Cartel.git",
     "update:self": "git pull",
-    "update:cartel": "git clone https://github.com/CartelModpack/Cartel.git",
+    "update:cartel": "git pull https://github.com/CartelModpack/Cartel.git",
     "update": "npm run update:cartel && npm run update:self"
   },
   "keywords": [],

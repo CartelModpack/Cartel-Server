@@ -129,3 +129,6 @@ dist
 # Config
 conf/
 protected/
+
+# Cartel Version
+Cartel/
