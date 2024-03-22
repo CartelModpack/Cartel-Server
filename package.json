@@ -4,7 +4,10 @@
   "description": "Cartel Hosting Provider",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "update:self": "git pull",
+    "update:cartel": "git clone https://github.com/CartelModpack/Cartel.git",
+    "update": "npm run update:cartel && npm run update:self"
   },
   "keywords": [],
   "author": "gavinhsmith <me@gavinhsmith.com> (https://gavinhsmith.com/)",
