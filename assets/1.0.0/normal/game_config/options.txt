@@ -1,0 +1,3 @@
+version:3700
+resourcePacks:["vanilla","fabric","file/VanillaTweaks [Enhanced].zip","continuity:default","continuity:glass_pane_culling_fix"]
+incompatibleResourcePacks:["continuity:default","continuity:glass_pane_culling_fix"]
