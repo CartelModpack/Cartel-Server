@@ -2,9 +2,17 @@ const fs = require("fs");
 const path = require("path");
 
 const DEFAULT_CONF = {
-    port: 8080,
-    protected_dir: path.join(__dirname, "./protected"),
-    cartel_dir: path.join(__dirname, "./Cartel")
+    server: {
+        port: 8080,
+        name: "Server Name",
+        url: "Server URL (https://example.com)"
+    },
+    cartel: {
+        latest: "1.0.0",
+        assets_dir: path.join(__dirname, "./assets"),
+        pack_dir: path.join(__dirname, "./cartel"),
+        direct: false
+    }
 }
 
 let final = DEFAULT_CONF;

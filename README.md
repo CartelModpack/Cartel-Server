@@ -1,2 +1,3 @@
-# Cartel Server
- Cartel Hosting Provider
+# Cartel Distribution Server
+
+Host Cartel Data for Packwiz, MultiMC, etc

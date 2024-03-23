@@ -4,16 +4,15 @@
   "description": "Cartel Hosting Provider",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "init": "git clone https://github.com/CartelModpack/Cartel.git",
-    "update:self": "git pull",
-    "update:cartel": "cd ./Cartel/ && git pull https://github.com/CartelModpack/Cartel.git && cd ..",
-    "update": "npm run update:cartel && npm run update:self"
+    "start": "npm run update:cartel && node .",
+    "init": "git clone https://github.com/CartelModpack/Cartel.git cartel/cartel-latest",
+    "update:cartel": "cd ./cartel/cartel-latest && git pull https://github.com/CartelModpack/Cartel.git && cd ../.."
   },
   "keywords": [],
   "author": "gavinhsmith <me@gavinhsmith.com> (https://gavinhsmith.com/)",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.1"
+    "express": "^4.19.1",
+    "express-handlebars": "^7.1.2"
   }
 }

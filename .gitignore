@@ -130,5 +130,5 @@ dist
 conf/
 protected/
 
-# Cartel Version
-Cartel/
+# Cartel Versions
+cartel/
