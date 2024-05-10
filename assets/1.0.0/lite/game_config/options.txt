@@ -1,2 +1,0 @@
-version:3700
-resourcePacks:["vanilla","fabric","file/VanillaTweaks [Basic].zip"]
